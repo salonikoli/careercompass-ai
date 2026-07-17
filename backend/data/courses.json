@@ -1,0 +1,704 @@
+{
+  "python": {
+    "title": "Python for Everybody Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/python",
+    "difficulty": "Beginner",
+    "duration": "8 months",
+    "icon": "🐍",
+    "free": false
+  },
+  "machine learning": {
+    "title": "Machine Learning Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "difficulty": "Intermediate",
+    "duration": "3 months",
+    "icon": "🎓",
+    "free": false
+  },
+  "deep learning": {
+    "title": "Deep Learning Specialization",
+    "platform": "DeepLearning.ai",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "difficulty": "Advanced",
+    "duration": "5 months",
+    "icon": "🧠",
+    "free": false
+  },
+  "nlp": {
+    "title": "Natural Language Processing Specialization",
+    "platform": "DeepLearning.ai",
+    "url": "https://www.coursera.org/specializations/natural-language-processing",
+    "difficulty": "Advanced",
+    "duration": "4 months",
+    "icon": "💬",
+    "free": false
+  },
+  "sql": {
+    "title": "SQL for Data Science",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/sql-for-data-science",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "🗄️",
+    "free": false
+  },
+  "javascript": {
+    "title": "JavaScript Algorithms and Data Structures",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "⚡",
+    "free": true
+  },
+  "react": {
+    "title": "React - The Complete Guide",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    "difficulty": "Intermediate",
+    "duration": "40 hours",
+    "icon": "⚛️",
+    "free": false
+  },
+  "nodejs": {
+    "title": "Node.js, Express, MongoDB & More",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+    "difficulty": "Intermediate",
+    "duration": "42 hours",
+    "icon": "🟢",
+    "free": false
+  },
+  "mongodb": {
+    "title": "MongoDB for Developers",
+    "platform": "MongoDB University",
+    "url": "https://university.mongodb.com/courses/M001/about",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "🍃",
+    "free": true
+  },
+  "aws": {
+    "title": "AWS Certified Cloud Practitioner",
+    "platform": "AWS Training",
+    "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
+    "difficulty": "Beginner",
+    "duration": "40 hours",
+    "icon": "☁️",
+    "free": false
+  },
+  "docker": {
+    "title": "Docker & Kubernetes: The Practical Guide",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/",
+    "difficulty": "Intermediate",
+    "duration": "20 hours",
+    "icon": "🐳",
+    "free": false
+  },
+  "kubernetes": {
+    "title": "Kubernetes for Beginners",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/news/kubernetes-full-course/",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "⚙️",
+    "free": true
+  },
+  "git": {
+    "title": "Version Control with Git",
+    "platform": "Atlassian",
+    "url": "https://www.atlassian.com/git/tutorials",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "📦",
+    "free": true
+  },
+  "rest api": {
+    "title": "REST API Design, Development & Management",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/rest-api/",
+    "difficulty": "Intermediate",
+    "duration": "10 hours",
+    "icon": "🔌",
+    "free": false
+  },
+  "tensorflow": {
+    "title": "TensorFlow Developer Certificate",
+    "platform": "Google",
+    "url": "https://www.coursera.org/specializations/tensorflow-in-practice",
+    "difficulty": "Intermediate",
+    "duration": "4 months",
+    "icon": "🔥",
+    "free": false
+  },
+  "pytorch": {
+    "title": "PyTorch for Deep Learning Bootcamp",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/pytorch-for-deep-learning/",
+    "difficulty": "Intermediate",
+    "duration": "22 hours",
+    "icon": "🔦",
+    "free": false
+  },
+  "scikit-learn": {
+    "title": "Scikit-Learn Machine Learning",
+    "platform": "DataCamp",
+    "url": "https://www.datacamp.com/courses/supervised-learning-with-scikit-learn",
+    "difficulty": "Intermediate",
+    "duration": "4 hours",
+    "icon": "📐",
+    "free": false
+  },
+  "pandas": {
+    "title": "Data Manipulation with pandas",
+    "platform": "DataCamp",
+    "url": "https://www.datacamp.com/courses/data-manipulation-with-pandas",
+    "difficulty": "Beginner",
+    "duration": "4 hours",
+    "icon": "🐼",
+    "free": false
+  },
+  "numpy": {
+    "title": "Introduction to NumPy",
+    "platform": "DataCamp",
+    "url": "https://www.datacamp.com/courses/introduction-to-numpy",
+    "difficulty": "Beginner",
+    "duration": "3 hours",
+    "icon": "🔢",
+    "free": false
+  },
+  "data analysis": {
+    "title": "Google Data Analytics Professional Certificate",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "difficulty": "Beginner",
+    "duration": "6 months",
+    "icon": "📈",
+    "free": false
+  },
+  "data visualization": {
+    "title": "Data Visualization with Python",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/python-for-data-visualization",
+    "difficulty": "Beginner",
+    "duration": "3 weeks",
+    "icon": "📊",
+    "free": false
+  },
+  "tableau": {
+    "title": "Data Visualization with Tableau Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/data-visualization",
+    "difficulty": "Beginner",
+    "duration": "5 months",
+    "icon": "📉",
+    "free": false
+  },
+  "power bi": {
+    "title": "Data Visualization with Power BI",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "📊",
+    "free": true
+  },
+  "statistics": {
+    "title": "Statistics with Python Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/statistics-with-python",
+    "difficulty": "Beginner",
+    "duration": "5 months",
+    "icon": "📐",
+    "free": false
+  },
+  "html": {
+    "title": "Responsive Web Design Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "🌐",
+    "free": true
+  },
+  "css": {
+    "title": "CSS Complete Guide",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+    "difficulty": "Beginner",
+    "duration": "22 hours",
+    "icon": "🎨",
+    "free": false
+  },
+  "typescript": {
+    "title": "Understanding TypeScript",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/understanding-typescript/",
+    "difficulty": "Intermediate",
+    "duration": "15 hours",
+    "icon": "🔷",
+    "free": false
+  },
+  "postgresql": {
+    "title": "PostgreSQL for Everybody",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/postgresql-for-everybody",
+    "difficulty": "Beginner",
+    "duration": "4 months",
+    "icon": "🐘",
+    "free": false
+  },
+  "redis": {
+    "title": "Redis University — Redis for Developers",
+    "platform": "Redis University",
+    "url": "https://university.redis.com/",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "🔴",
+    "free": true
+  },
+  "microservices": {
+    "title": "Microservices with Node.js and React",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/microservices-with-node-js-and-react/",
+    "difficulty": "Advanced",
+    "duration": "54 hours",
+    "icon": "🔗",
+    "free": false
+  },
+  "linux": {
+    "title": "The Linux Command Line Bootcamp",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/the-linux-command-line-bootcamp/",
+    "difficulty": "Beginner",
+    "duration": "15 hours",
+    "icon": "🐧",
+    "free": false
+  },
+  "azure": {
+    "title": "Microsoft Azure Fundamentals (AZ-900)",
+    "platform": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "🔵",
+    "free": true
+  },
+  "gcp": {
+    "title": "Google Cloud Fundamentals: Core Infrastructure",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/gcp-fundamentals",
+    "difficulty": "Beginner",
+    "duration": "1 month",
+    "icon": "🟡",
+    "free": false
+  },
+  "terraform": {
+    "title": "HashiCorp Certified: Terraform Associate",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/terraform-beginner-to-advanced/",
+    "difficulty": "Intermediate",
+    "duration": "12 hours",
+    "icon": "🏗️",
+    "free": false
+  },
+  "ci/cd": {
+    "title": "CI/CD Pipelines with Jenkins, Docker & GitHub Actions",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/devops-cicd/",
+    "difficulty": "Intermediate",
+    "duration": "9 hours",
+    "icon": "🔁",
+    "free": false
+  },
+  "mlops": {
+    "title": "Machine Learning Engineering for Production (MLOps)",
+    "platform": "DeepLearning.ai",
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "difficulty": "Advanced",
+    "duration": "4 months",
+    "icon": "⚙️",
+    "free": false
+  },
+  "computer vision": {
+    "title": "Computer Vision Nanodegree",
+    "platform": "Udacity",
+    "url": "https://www.udacity.com/course/computer-vision-nanodegree--nd891",
+    "difficulty": "Advanced",
+    "duration": "3 months",
+    "icon": "👁️",
+    "free": false
+  },
+  "transformers": {
+    "title": "Hugging Face NLP Course",
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/learn/nlp-course/chapter1/1",
+    "difficulty": "Advanced",
+    "duration": "Self-paced",
+    "icon": "🤗",
+    "free": true
+  },
+  "network security": {
+    "title": "Google Cybersecurity Professional Certificate",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    "difficulty": "Beginner",
+    "duration": "6 months",
+    "icon": "🔐",
+    "free": false
+  },
+  "penetration testing": {
+    "title": "Complete Ethical Hacking Bootcamp",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/complete-ethical-hacking-bootcamp-zero-to-mastery/",
+    "difficulty": "Advanced",
+    "duration": "25 hours",
+    "icon": "🛡️",
+    "free": false
+  },
+  "vulnerability assessment": {
+    "title": "Web Application Security Testing",
+    "platform": "Cybrary",
+    "url": "https://www.cybrary.it/course/web-application-security-testing/",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "🔍",
+    "free": true
+  },
+  "siem": {
+    "title": "Security Operations and SIEM",
+    "platform": "Cybrary",
+    "url": "https://www.cybrary.it/course/siem/",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "🚨",
+    "free": true
+  },
+  "react native": {
+    "title": "React Native - The Practical Guide",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/react-native-the-practical-guide/",
+    "difficulty": "Intermediate",
+    "duration": "28 hours",
+    "icon": "📱",
+    "free": false
+  },
+  "flutter": {
+    "title": "Flutter & Dart — The Complete Guide",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/",
+    "difficulty": "Intermediate",
+    "duration": "40 hours",
+    "icon": "🦋",
+    "free": false
+  },
+  "firebase": {
+    "title": "Firebase in a Weekend",
+    "platform": "Google",
+    "url": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "🔥",
+    "free": true
+  },
+  "excel": {
+    "title": "Excel Skills for Data Analytics and Visualization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/excel-data-analytics-visualization",
+    "difficulty": "Beginner",
+    "duration": "3 months",
+    "icon": "📗",
+    "free": false
+  },
+  "reporting": {
+    "title": "Business Intelligence and Data Warehousing",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/business-intelligence-tools",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "📋",
+    "free": false
+  },
+  "responsive design": {
+    "title": "Responsive Web Design Certification",
+    "platform": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "📱",
+    "free": true
+  },
+  "css animations": {
+    "title": "Advanced CSS and Sass: Flexbox, Grid, Animations",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/advanced-css-and-sass/",
+    "difficulty": "Intermediate",
+    "duration": "28 hours",
+    "icon": "✨",
+    "free": false
+  },
+  "accessibility": {
+    "title": "Web Accessibility by Google",
+    "platform": "Udacity",
+    "url": "https://www.udacity.com/course/web-accessibility--ud891",
+    "difficulty": "Beginner",
+    "duration": "2 weeks",
+    "icon": "♿",
+    "free": true
+  },
+  "networking": {
+    "title": "The Bits and Bytes of Computer Networking",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/computer-networking",
+    "difficulty": "Beginner",
+    "duration": "6 weeks",
+    "icon": "🔌",
+    "free": false
+  },
+  "security": {
+    "title": "Cybersecurity Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/intro-cyber-security",
+    "difficulty": "Intermediate",
+    "duration": "5 months",
+    "icon": "🛡️",
+    "free": false
+  },
+  "devops": {
+    "title": "DevOps Culture and Mindset",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/devops-culture-and-mindset",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "🔄",
+    "free": false
+  },
+  "cloud computing": {
+    "title": "Cloud Computing Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/cloud-computing",
+    "difficulty": "Intermediate",
+    "duration": "6 months",
+    "icon": "☁️",
+    "free": false
+  },
+  "data structures": {
+    "title": "Data Structures and Algorithms Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/data-structures-algorithms",
+    "difficulty": "Intermediate",
+    "duration": "8 months",
+    "icon": "🌳",
+    "free": false
+  },
+  "algorithms": {
+    "title": "Algorithms, Part I",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "difficulty": "Intermediate",
+    "duration": "4 weeks",
+    "icon": "🔬",
+    "free": false
+  },
+  "agile": {
+    "title": "Agile Project Management",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/agile-project-management",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "🏃",
+    "free": false
+  },
+  "product strategy": {
+    "title": "Product Management Fundamentals",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/product-management",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "🎯",
+    "free": false
+  },
+  "user research": {
+    "title": "Google UX Design Professional Certificate",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+    "difficulty": "Beginner",
+    "duration": "7 months",
+    "icon": "🔬",
+    "free": false
+  },
+  "wireframing": {
+    "title": "UI/UX Design Specialization",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/specializations/ui-ux-design",
+    "difficulty": "Beginner",
+    "duration": "4 months",
+    "icon": "✏️",
+    "free": false
+  },
+  "a/b testing": {
+    "title": "A/B Testing by Google",
+    "platform": "Udacity",
+    "url": "https://www.udacity.com/course/ab-testing--ud979",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "🧪",
+    "free": true
+  },
+  "roadmapping": {
+    "title": "Product Strategy and Roadmapping",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/product-strategy",
+    "difficulty": "Intermediate",
+    "duration": "6 weeks",
+    "icon": "🗺️",
+    "free": false
+  },
+  "stakeholder management": {
+    "title": "Communication and Stakeholder Management",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/communication-stakeholders",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "🤝",
+    "free": false
+  },
+  "mobile ui": {
+    "title": "Mobile UX Design Fundamentals",
+    "platform": "Udacity",
+    "url": "https://www.udacity.com/course/mobile-ux-design--ud849",
+    "difficulty": "Beginner",
+    "duration": "Self-paced",
+    "icon": "📲",
+    "free": true
+  },
+  "data engineering": {
+    "title": "Data Engineering Zoomcamp",
+    "platform": "DataTalksClub",
+    "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "difficulty": "Intermediate",
+    "duration": "9 weeks",
+    "icon": "🔧",
+    "free": true
+  },
+  "r": {
+    "title": "R Programming",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/r-programming",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "icon": "📊",
+    "free": false
+  },
+  "unit testing": {
+    "title": "Unit Testing for Python Developers",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/unit-testing-python/",
+    "difficulty": "Intermediate",
+    "duration": "8 hours",
+    "icon": "🧪",
+    "free": false
+  },
+  "bash": {
+    "title": "Bash Scripting and Shell Programming",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/bash-scripting/",
+    "difficulty": "Beginner",
+    "duration": "6 hours",
+    "icon": "💻",
+    "free": false
+  },
+  "monitoring": {
+    "title": "Prometheus and Grafana Monitoring",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/prometheus-grafana/",
+    "difficulty": "Intermediate",
+    "duration": "7 hours",
+    "icon": "📡",
+    "free": false
+  },
+  "ansible": {
+    "title": "Ansible for the Absolute Beginner",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/learn-ansible/",
+    "difficulty": "Beginner",
+    "duration": "5 hours",
+    "icon": "🤖",
+    "free": false
+  },
+  "java": {
+    "title": "Java Programming Masterclass",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+    "difficulty": "Beginner",
+    "duration": "80 hours",
+    "icon": "☕",
+    "free": false
+  },
+  "push notifications": {
+    "title": "Mobile App Push Notifications Mastery",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/push-notifications/",
+    "difficulty": "Intermediate",
+    "duration": "5 hours",
+    "icon": "🔔",
+    "free": false
+  },
+  "app store deployment": {
+    "title": "iOS App Deployment and App Store Submission",
+    "platform": "Udemy",
+    "url": "https://www.udemy.com/course/ios-deployment/",
+    "difficulty": "Intermediate",
+    "duration": "4 hours",
+    "icon": "🚀",
+    "free": false
+  },
+  "cryptography": {
+    "title": "Cryptography I",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/crypto",
+    "difficulty": "Advanced",
+    "duration": "7 weeks",
+    "icon": "🔑",
+    "free": false
+  },
+  "incident response": {
+    "title": "Incident Response and Digital Forensics",
+    "platform": "Coursera",
+    "url": "https://www.coursera.org/learn/incident-response",
+    "difficulty": "Intermediate",
+    "duration": "4 weeks",
+    "icon": "🚒",
+    "free": false
+  },
+  "firewall": {
+    "title": "Network Security & Firewalls",
+    "platform": "Cybrary",
+    "url": "https://www.cybrary.it/course/network-security/",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "🧱",
+    "free": true
+  },
+  "cost optimization": {
+    "title": "AWS Cost Optimization",
+    "platform": "AWS Skill Builder",
+    "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/5067/aws-cost-optimization",
+    "difficulty": "Intermediate",
+    "duration": "Self-paced",
+    "icon": "💰",
+    "free": true
+  },
+  "web performance": {
+    "title": "Web Performance Fundamentals",
+    "platform": "Frontend Masters",
+    "url": "https://frontendmasters.com/courses/web-performance/",
+    "difficulty": "Intermediate",
+    "duration": "4 hours",
+    "icon": "⚡",
+    "free": false
+  }
+}

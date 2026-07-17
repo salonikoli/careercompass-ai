@@ -1,0 +1,980 @@
+{
+  "data_scientist": [
+    {
+      "q": "Explain the bias-variance tradeoff.",
+      "options": [
+        "A. High bias = underfitting, high variance = overfitting.",
+        "B. High bias = overfitting, high variance = underfitting.",
+        "C. High bias = high variance, low variance = underfitting.",
+        "D. Low bias = underfitting, low variance = overfitting."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "High bias = underfitting, high variance = overfitting. Balance via regularization, cross-validation."
+    },
+    {
+      "q": "How would you handle a highly imbalanced dataset?",
+      "options": [
+        "A. SMOTE, class weights, oversampling, undersampling, or changing evaluation metric to F1/AUC.",
+        "B. Data augmentation, feature scaling, and PCA.",
+        "C. Random forest, gradient boosting, and neural networks.",
+        "D. Linear regression and decision trees."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "SMOTE, class weights, oversampling, undersampling, or changing evaluation metric to F1/AUC."
+    },
+    {
+      "q": "Walk me through a complete machine learning project lifecycle.",
+      "options": [
+        "A. Problem definition \u2192 data collection \u2192 EDA \u2192 feature engineering \u2192 modeling \u2192 evaluation \u2192 deployment \u2192 monitoring.",
+        "B. Data collection \u2192 EDA \u2192 feature engineering \u2192 modeling \u2192 evaluation \u2192 deployment \u2192 monitoring \u2192 problem definition.",
+        "C. Problem definition \u2192 EDA \u2192 feature engineering \u2192 modeling \u2192 evaluation \u2192 deployment \u2192 monitoring \u2192 data collection.",
+        "D. Data collection \u2192 modeling \u2192 evaluation \u2192 deployment \u2192 monitoring \u2192 problem definition \u2192 EDA \u2192 feature engineering."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Problem definition \u2192 data collection \u2192 EDA \u2192 feature engineering \u2192 modeling \u2192 evaluation \u2192 deployment \u2192 monitoring."
+    },
+    {
+      "q": "What is the difference between L1 and L2 regularization?",
+      "options": [
+        "A. L1 = Lasso, produces sparse models. L2 = Ridge, shrinks all weights.",
+        "B. L1 = Ridge, shrinks all weights. L2 = Lasso, produces sparse models.",
+        "C. L1 = Elastic Net, combines both. L2 = Ridge, shrinks all weights.",
+        "D. L1 = Lasso, produces dense models. L2 = Ridge, shrinks all weights."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "L1 = Lasso, produces sparse models. L2 = Ridge, shrinks all weights. Elastic Net combines both."
+    },
+    {
+      "q": "How do you detect and handle outliers in a dataset?",
+      "options": [
+        "A. Z-score, IQR method, box plots. Handle by removal, transformation (log), or capping.",
+        "B. Data augmentation, feature scaling, and PCA.",
+        "C. Random forest, gradient boosting, and neural networks.",
+        "D. Linear regression and decision trees."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Z-score, IQR method, box plots. Handle by removal, transformation (log), or capping."
+    },
+    {
+      "q": "Explain how gradient descent works.",
+      "options": [
+        "A. Iteratively adjust weights in direction of negative gradient of loss. Learning rate controls step size.",
+        "B. Iteratively adjust weights in direction of positive gradient of loss. Learning rate controls step size.",
+        "C. Iteratively adjust weights in direction of negative gradient of loss. Learning rate controls batch size.",
+        "D. Iteratively adjust weights in direction of positive gradient of loss. Learning rate controls batch size."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Iteratively adjust weights in direction of negative gradient of loss. Learning rate controls step size."
+    },
+    {
+      "q": "What metrics would you use for a fraud detection model?",
+      "options": [
+        "A. Precision-Recall curve, AUC-ROC, F1. Accuracy is misleading on imbalanced data.",
+        "B. Precision-Recall curve, AUC-ROC, accuracy.",
+        "C. F1, accuracy, and mean squared error.",
+        "D. Precision-Recall curve, AUC-ROC, and mean squared error."
+      ],
+      "correct_index": 0,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Precision-Recall curve, AUC-ROC, F1. Accuracy is misleading on imbalanced data."
+    },
+    {
+      "q": "Tell me about a time you found a surprising insight in data.",
+      "options": [
+        "A. Use STAR: Situation, Task, Action, Result. Emphasize impact on business decision.",
+        "B. Focus on business impact, use visualizations, avoid jargon, tell a story with data.",
+        "C. Use data to identify a business opportunity, and propose a solution.",
+        "D. Use data to identify a business problem, and propose a solution."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Use STAR: Situation, Task, Action, Result. Emphasize impact on business decision."
+    },
+    {
+      "q": "How do you communicate complex analysis to non-technical stakeholders?",
+      "options": [
+        "A. Focus on business impact, use visualizations, avoid jargon, tell a story with data.",
+        "B. Use technical terms, provide detailed explanations, and show complex models.",
+        "C. Use data to identify a business opportunity, and propose a solution.",
+        "D. Use data to identify a business problem, and propose a solution."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Focus on business impact, use visualizations, avoid jargon, tell a story with data."
+    },
+    {
+      "q": "What's the difference between supervised, unsupervised, and reinforcement learning?",
+      "options": [
+        "A. Supervised = labeled data, unsupervised = patterns without labels, RL = reward-based agent learning.",
+        "B. Supervised = patterns without labels, unsupervised = labeled data, RL = reward-based agent learning.",
+        "C. Supervised = reward-based agent learning, unsupervised = labeled data, RL = patterns without labels.",
+        "D. Supervised = labeled data, unsupervised = reward-based agent learning, RL = patterns without labels."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Supervised = labeled data, unsupervised = patterns without labels, RL = reward-based agent learning."
+    }
+  ],
+  "data_analyst": [
+    {
+      "q": "Write a SQL query to find the second highest salary.",
+      "options": [
+        "Use DENSE_RANK() or subquery with NOT IN (max salary).",
+        "Use GROUP BY and ORDER BY.",
+        "Use JOIN and GROUP BY.",
+        "Use subquery with MAX() and LIMIT 1."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Use DENSE_RANK() or subquery with NOT IN (max salary)."
+    },
+    {
+      "q": "What is the difference between INNER JOIN and LEFT JOIN?",
+      "options": [
+        "INNER JOIN returns all rows from both tables.",
+        "INNER JOIN returns only matching rows.",
+        "LEFT JOIN returns all rows from left table.",
+        "LEFT JOIN returns all rows from right table."
+      ],
+      "correct_index": 1,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "INNER = matching rows only. LEFT = all rows from left table + matching from right."
+    },
+    {
+      "q": "How do you handle NULL values in SQL?",
+      "options": [
+        "Use = NULL to check for NULL values.",
+        "Use IS NULL to check for NULL values.",
+        "Use COALESCE() to replace NULL values.",
+        "Use IS NOT NULL to check for NULL values."
+      ],
+      "correct_index": 1,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "IS NULL / IS NOT NULL, COALESCE(), ISNULL(), NVL(). Never use = NULL."
+    },
+    {
+      "q": "How would you build a dashboard to track monthly revenue?",
+      "options": [
+        "Use Excel to create a pivot table.",
+        "Use Tableau to create a dashboard.",
+        "Use Power BI to create a report.",
+        "Use SQL to create a data warehouse."
+      ],
+      "correct_index": 1,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Identify KPIs, aggregate data by month, choose Tableau/Power BI, add trend lines and filters."
+    },
+    {
+      "q": "Explain the difference between variance and standard deviation.",
+      "options": [
+        "Variance is the square root of standard deviation.",
+        "Variance is the average of squared deviations.",
+        "Standard deviation is the square root of variance.",
+        "Standard deviation is the average of deviations."
+      ],
+      "correct_index": 1,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Variance = average squared deviation. SD = square root of variance. SD is in original units."
+    },
+    {
+      "q": "What is a Pivot Table and when would you use it?",
+      "options": [
+        "A pivot table is used for data visualization.",
+        "A pivot table is used for data analysis.",
+        "A pivot table is used for data summarization.",
+        "A pivot table is used for data filtering."
+      ],
+      "correct_index": 2,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Summarize large datasets by grouping and aggregating. Used for cross-tabulation analysis."
+    },
+    {
+      "q": "How do you validate the quality of a dataset before analysis?",
+      "options": [
+        "Check for null values and duplicates.",
+        "Check for outliers and data types.",
+        "Check for referential integrity and distribution.",
+        "Check for all of the above."
+      ],
+      "correct_index": 3,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Check for nulls, duplicates, outliers, data types, distribution, referential integrity."
+    },
+    {
+      "q": "Describe a time you used data to influence a business decision.",
+      "options": [
+        "I used data to increase revenue by 15%.",
+        "I used data to reduce costs by 20%.",
+        "I used data to improve customer satisfaction.",
+        "I used data to increase market share."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "STAR format. Quantify the result \u2014 'increased revenue by 15%' is more powerful than vague statements."
+    },
+    {
+      "q": "What is A/B testing and how would you set one up?",
+      "options": [
+        "A/B testing is used to compare two groups.",
+        "A/B testing is used to compare three groups.",
+        "A/B testing is used to compare control vs treatment group.",
+        "A/B testing is used to compare four groups."
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Control vs treatment group. Define hypothesis, sample size (power analysis), duration, metric, p-value threshold."
+    },
+    {
+      "q": "How do you prioritize when you have multiple urgent analysis requests?",
+      "options": [
+        "Communicate with stakeholders and assess business impact.",
+        "Break down tasks into smaller subtasks.",
+        "Provide ETAs to stakeholders.",
+        "Use a project management tool."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Communicate with stakeholders, assess business impact and deadline, break into subtasks, provide ETAs."
+    }
+  ],
+  "ai_engineer": [
+    {
+      "q": "Explain how a Transformer architecture works.",
+      "options": [
+        "A. It uses a recurrent neural network.",
+        "B. It uses a self-attention mechanism.",
+        "C. It uses a convolutional neural network.",
+        "D. It uses a recurrent neural network and a self-attention mechanism."
+      ],
+      "correct_index": 1,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Self-attention mechanism, multi-head attention, positional encoding, encoder-decoder structure."
+    },
+    {
+      "q": "What is the difference between fine-tuning and prompt engineering?",
+      "options": [
+        "A. Fine-tuning updates model weights on specific data, while prompt engineering guides without changing weights.",
+        "B. Fine-tuning guides without changing weights, while prompt engineering updates model weights on specific data.",
+        "C. Fine-tuning and prompt engineering are the same thing.",
+        "D. Neither fine-tuning nor prompt engineering updates model weights on specific data."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Fine-tuning updates model weights on specific data. Prompt engineering guides without changing weights."
+    },
+    {
+      "q": "How would you deploy an ML model to production?",
+      "options": [
+        "A. Docker containerize the model and deploy it directly to production.",
+        "B. Use a REST API to deploy the model and monitor its performance with MLflow/Prometheus.",
+        "C. Use a CI/CD pipeline to deploy the model and monitor its performance with MLflow/Prometheus.",
+        "D. Use a combination of Docker containerization, REST API, and CI/CD pipeline to deploy the model."
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Docker containerize \u2192 REST API (FastAPI) \u2192 monitor with MLflow/Prometheus \u2192 CI/CD pipeline."
+    },
+    {
+      "q": "What are embedding vectors and why are they used in NLP?",
+      "options": [
+        "A. They are used to represent words as numerical values, allowing for efficient comparison and classification.",
+        "B. They are used to represent words as categorical values, allowing for efficient comparison and classification.",
+        "C. They are used to represent words as dense numerical representations of semantic meaning.",
+        "D. They are used to represent words as sparse numerical representations of semantic meaning."
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Dense numerical representations of semantic meaning. Similar concepts have similar vectors."
+    },
+    {
+      "q": "Explain RAG (Retrieval Augmented Generation).",
+      "options": [
+        "A. It uses a combination of retrieval and generation to produce a response.",
+        "B. It uses a combination of generation and post-processing to produce a response.",
+        "C. It uses a combination of retrieval and post-processing to produce a response.",
+        "D. It uses a combination of generation and retrieval to produce a response."
+      ],
+      "correct_index": 0,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Retrieve relevant docs from vector DB \u2192 augment LLM prompt \u2192 generate grounded response."
+    },
+    {
+      "q": "How do you evaluate a language model's performance?",
+      "options": [
+        "A. Perplexity, BLEU/ROUGE for generation, human eval, task-specific benchmarks (GLUE, SuperGLUE).",
+        "B. Perplexity, BLEU/ROUGE for generation, task-specific benchmarks (GLUE, SuperGLUE).",
+        "C. Human eval, task-specific benchmarks (GLUE, SuperGLUE).",
+        "D. Perplexity, human eval."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Perplexity, BLEU/ROUGE for generation, human eval, task-specific benchmarks (GLUE, SuperGLUE)."
+    },
+    {
+      "q": "What is model quantization and why is it used?",
+      "options": [
+        "A. It reduces model weight precision (FP32\u2192INT8) to decrease memory/compute, with a slight accuracy trade-off.",
+        "B. It reduces model weight precision (FP32\u2192INT8) to increase accuracy, with a slight memory/compute trade-off.",
+        "C. It increases model weight precision (FP32\u2192FP64) to decrease memory/compute, with a slight accuracy trade-off.",
+        "D. It increases model weight precision (FP32\u2192FP64) to increase accuracy, with a slight memory/compute trade-off."
+      ],
+      "correct_index": 0,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Reduce model weight precision (FP32\u2192INT8) to decrease memory/compute. Slight accuracy trade-off."
+    },
+    {
+      "q": "Describe a challenging AI system you built and the problems you solved.",
+      "options": [
+        "A. Describe a challenging AI system you built and the problems you solved, using the STAR format.",
+        "B. Describe a challenging AI system you built and the problems you solved, without using the STAR format.",
+        "C. Describe a challenging AI system you built and the problems you solved, using the STAR format and focusing on technical challenges, trade-offs made, and measurable outcomes.",
+        "D. Describe a challenging AI system you built and the problems you solved, without using the STAR format and focusing on technical challenges, trade-offs made, and measurable outcomes."
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "STAR format. Focus on technical challenges, trade-offs made, and measurable outcomes."
+    },
+    {
+      "q": "How do you handle hallucinations in LLM-based applications?",
+      "options": [
+        "A. Use RAG for grounding, output validation, confidence scoring, human-in-the-loop, and constrained decoding.",
+        "B. Use RAG for grounding, output validation, and confidence scoring.",
+        "C. Use output validation, confidence scoring, human-in-the-loop, and constrained decoding.",
+        "D. Use RAG for grounding and output validation."
+      ],
+      "correct_index": 0,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "RAG for grounding, output validation, confidence scoring, human-in-the-loop, constrained decoding."
+    },
+    {
+      "q": "What is MLOps and why is it important?",
+      "options": [
+        "A. It is the practice of managing the machine learning lifecycle in production, including versioning, CI/CD for models, monitoring, and retraining triggers.",
+        "B. It is the practice of managing the machine learning lifecycle in development, including versioning, CI/CD for models, monitoring, and retraining triggers.",
+        "C. It is the practice of managing the machine learning lifecycle in production, including versioning, CI/CD for models, and monitoring.",
+        "D. It is the practice of managing the machine learning lifecycle in development, including versioning, CI/CD for models, and monitoring."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Practices for ML lifecycle in production: versioning, CI/CD for models, monitoring, retraining triggers."
+    }
+  ],
+  "ml_engineer": [
+    {
+      "q": "What is feature engineering and give 3 examples.",
+      "options": [
+        "A. Data preprocessing",
+        "B. Model selection",
+        "C. Creating new features from raw data",
+        "D. Hyperparameter tuning"
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Creating new features from raw data: binning, polynomial features, interaction terms, TF-IDF."
+    },
+    {
+      "q": "Explain cross-validation and why it's important.",
+      "options": [
+        "A. To reduce overfitting",
+        "B. To increase model complexity",
+        "C. To speed up training",
+        "D. To decrease model accuracy"
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "K-fold: split data into k parts, train on k-1 test on 1. Reduces overfitting, better generalization estimate."
+    },
+    {
+      "q": "What is the ROC curve and AUC score?",
+      "options": [
+        "A. Precision vs Recall",
+        "B. F1-score vs Accuracy",
+        "C. TPR vs FPR at each threshold",
+        "D. Loss vs Epochs"
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "ROC plots TPR vs FPR at each threshold. AUC = area under curve. 0.5 = random, 1.0 = perfect."
+    },
+    {
+      "q": "How would you build a recommendation system?",
+      "options": [
+        "A. Collaborative filtering",
+        "B. Content-based filtering",
+        "C. Hybrid approach",
+        "D. All of the above"
+      ],
+      "correct_index": 3,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Collaborative filtering (user-item matrix), content-based (item features), or hybrid. Matrix factorization or deep learning."
+    },
+    {
+      "q": "Explain how Random Forest works.",
+      "options": [
+        "A. Ensemble of decision trees",
+        "B. Gradient boosting",
+        "C. Support vector machines",
+        "D. k-nearest neighbors"
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Ensemble of decision trees trained on bootstrapped samples with feature subsets. Vote for final prediction."
+    },
+    {
+      "q": "What is hyperparameter tuning and what methods do you use?",
+      "options": [
+        "A. Grid search",
+        "B. Random search",
+        "C. Bayesian optimization",
+        "D. All of the above"
+      ],
+      "correct_index": 3,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Grid search, random search, Bayesian optimization, HyperOpt, Optuna. Define search space + metric."
+    },
+    {
+      "q": "How do you detect model drift in production?",
+      "options": [
+        "A. Monitor input distribution shift",
+        "B. Monitor output distribution",
+        "C. Monitor prediction quality metrics",
+        "D. All of the above"
+      ],
+      "correct_index": 3,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Monitor input distribution shift (PSI, KS-test), output distribution, and prediction quality metrics over time."
+    },
+    {
+      "q": "Walk me through your approach for a new ML problem.",
+      "options": [
+        "A. Understand business goal",
+        "B. Define success metric",
+        "C. Explore data",
+        "D. All of the above"
+      ],
+      "correct_index": 3,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Understand business goal \u2192 define success metric \u2192 explore data \u2192 baseline \u2192 iterate \u2192 evaluate \u2192 deploy."
+    },
+    {
+      "q": "Explain the difference between batch and online learning.",
+      "options": [
+        "A. Batch = train on full dataset periodically",
+        "B. Online = update incrementally with each new data point",
+        "C. Both are used for classification",
+        "D. Batch is used for regression"
+      ],
+      "correct_index": 1,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Batch = train on full dataset periodically. Online = update incrementally with each new data point."
+    },
+    {
+      "q": "How do you ensure reproducibility in ML experiments?",
+      "options": [
+        "A. Seed random numbers",
+        "B. Version data + code + models",
+        "C. Containerize environment",
+        "D. All of the above"
+      ],
+      "correct_index": 3,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Seed random numbers, version data + code + models (DVC, MLflow), containerize environment."
+    }
+  ],
+  "frontend_developer": [
+    {
+      "q": "What is the Virtual DOM and how does React use it?",
+      "options": [
+        "A. A lightweight JS object tree used for rendering.",
+        "B. A virtual representation of the DOM used for debugging.",
+        "C. A lightweight JS object tree used for rendering, React compares (diffs) virtual vs real DOM, updates only changed nodes.",
+        "D. A virtual representation of the DOM used for performance optimization."
+      ],
+      "correct_index": 2,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Lightweight JS object tree. React compares (diffs) virtual vs real DOM, updates only changed nodes."
+    },
+    {
+      "q": "Explain the difference between useEffect and useLayoutEffect.",
+      "options": [
+        "A. useEffect runs after paint, useLayoutEffect runs synchronously after DOM mutations, before paint.",
+        "B. useEffect runs synchronously after DOM mutations, before paint, useLayoutEffect runs after paint.",
+        "C. useLayoutEffect runs after paint, useEffect runs synchronously after DOM mutations, before paint.",
+        "D. useEffect and useLayoutEffect are identical in functionality."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "useEffect runs after paint. useLayoutEffect runs synchronously after DOM mutations, before paint."
+    },
+    {
+      "q": "What are some ways to optimize React application performance?",
+      "options": [
+        "A. Memoization (React.memo, useMemo, useCallback), code splitting, lazy loading, virtualization, bundle analysis.",
+        "B. Memoization (React.memo, useMemo, useCallback), code splitting, lazy loading, virtualization, and using a CDN.",
+        "C. Memoization (React.memo, useMemo, useCallback), code splitting, lazy loading, virtualization, and using a proxy server.",
+        "D. Memoization (React.memo, useMemo, useCallback), code splitting, lazy loading, virtualization, and using a VPN."
+      ],
+      "correct_index": 0,
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Memoization (React.memo, useMemo, useCallback), code splitting, lazy loading, virtualization, bundle analysis."
+    },
+    {
+      "q": "Explain how CSS Flexbox works.",
+      "options": [
+        "A. Main axis vs cross axis. justify-content/align-items for alignment. flex-grow/shrink/basis for sizing.",
+        "B. Main axis vs cross axis. justify-content/align-items for sizing. flex-grow/shrink/basis for alignment.",
+        "C. Main axis vs cross axis. flex-grow/shrink/basis for sizing. justify-content/align-items for alignment.",
+        "D. Main axis vs cross axis. flex-grow/shrink/basis for alignment. justify-content/align-items for sizing."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Main axis vs cross axis. justify-content/align-items for alignment. flex-grow/shrink/basis for sizing."
+    },
+    {
+      "q": "What is the difference between sessionStorage and localStorage?",
+      "options": [
+        "A. localStorage persists until cleared, sessionStorage clears on tab close.",
+        "B. localStorage clears on tab close, sessionStorage persists until cleared.",
+        "C. Both localStorage and sessionStorage clear on tab close.",
+        "D. Both localStorage and sessionStorage persist until cleared."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "localStorage persists until cleared. sessionStorage clears on tab close. Both ~5MB, synchronous, string only."
+    },
+    {
+      "q": "What is a closure in JavaScript?",
+      "options": [
+        "A. A function that remembers its outer scope after outer function has returned.",
+        "B. A function that does not remember its outer scope after outer function has returned.",
+        "C. A function that returns a new scope.",
+        "D. A function that takes a new scope as an argument."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Function that remembers its outer scope after outer function has returned. Used in module pattern, callbacks, IIFE."
+    },
+    {
+      "q": "How do you handle accessibility in web applications?",
+      "options": [
+        "A. ARIA attributes, semantic HTML, keyboard navigation, color contrast, alt text, screen reader testing.",
+        "B. ARIA attributes, semantic HTML, color contrast, alt text, screen reader testing, and keyboard navigation.",
+        "C. ARIA attributes, semantic HTML, color contrast, alt text, and screen reader testing.",
+        "D. ARIA attributes, semantic HTML, and keyboard navigation."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "ARIA attributes, semantic HTML, keyboard navigation, color contrast, alt text, screen reader testing."
+    },
+    {
+      "q": "Describe a complex UI component you built and the challenges.",
+      "options": [
+        "A. Describe a complex UI component you built and the challenges you faced, focusing on performance, reusability, state management, and edge cases handled.",
+        "B. Describe a simple UI component you built and the challenges you faced, focusing on performance, reusability, state management, and edge cases handled.",
+        "C. Describe a complex UI component you built and the challenges you faced, focusing on design, functionality, and user experience.",
+        "D. Describe a simple UI component you built and the challenges you faced, focusing on design, functionality, and user experience."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "STAR format. Focus on performance, reusability, state management, and edge cases handled."
+    },
+    {
+      "q": "What is CSS specificity and how is it calculated?",
+      "options": [
+        "A. Inline(1000) > ID(100) > Class(10) > Element(1). Higher specificity wins, same specificity \u2192 last in file.",
+        "B. Inline(100) > ID(10) > Class(1) > Element(1000). Higher specificity wins, same specificity \u2192 last in file.",
+        "C. Inline(10) > ID(1000) > Class(100) > Element(1). Higher specificity wins, same specificity \u2192 last in file.",
+        "D. Inline(1) > ID(10) > Class(100) > Element(1000). Higher specificity wins, same specificity \u2192 last in file."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Inline(1000) > ID(100) > Class(10) > Element(1). Higher specificity wins, same specificity \u2192 last in file."
+    },
+    {
+      "q": "How do you approach cross-browser compatibility?",
+      "options": [
+        "A. CSS resets, feature detection (Modernizr), progressive enhancement, polyfills, browser dev tools.",
+        "B. CSS resets, feature detection (Modernizr), progressive enhancement, polyfills, and browser dev tools.",
+        "C. CSS resets, feature detection (Modernizr), and progressive enhancement.",
+        "D. CSS resets, and feature detection (Modernizr)."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "CSS resets, feature detection (Modernizr), progressive enhancement, polyfills, browser dev tools."
+    }
+  ],
+  "backend_developer": [
+    {
+      "q": "What is the difference between SQL and NoSQL databases?",
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "SQL = structured tables, ACID, vertical scaling. NoSQL = flexible schema, BASE, horizontal scaling."
+    },
+    {
+      "q": "Explain REST API design principles.",
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Stateless, uniform interface, resource-based URLs, HTTP methods (GET/POST/PUT/DELETE), JSON responses."
+    },
+    {
+      "q": "How would you scale a backend to handle 10 million requests/day?",
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Load balancing, caching (Redis), database indexing, connection pooling, CDN, microservices, auto-scaling."
+    },
+    {
+      "q": "What is database indexing and when should you use it?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Data structure that speeds up queries. Use on frequently queried/joined columns. Avoid on rarely queried or write-heavy columns."
+    },
+    {
+      "q": "Explain the difference between authentication and authorization.",
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "Auth = verify identity (who are you?). Authz = verify permissions (what can you do?). JWT handles both."
+    },
+    {
+      "q": "What is a race condition and how do you prevent it?",
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Multiple threads access shared resource unpredictably. Prevent with locks, mutexes, atomic operations, transactions."
+    },
+    {
+      "q": "How do you design a caching strategy?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Choose cache-aside vs write-through, define TTL, handle cache invalidation, use Redis/Memcached, monitor hit rate."
+    },
+    {
+      "q": "Describe a production incident you handled and what you learned.",
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "STAR: Situation (outage/bug), Actions taken (diagnose, fix, deploy), Result, and retrospective/learnings."
+    },
+    {
+      "q": "What is the N+1 query problem and how do you fix it?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "1 query to fetch list + N queries for each item. Fix with eager loading (JOIN), DataLoader, or batch queries."
+    },
+    {
+      "q": "Explain microservices vs monolith architecture.",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Monolith = single deployable. Microservices = independent services. Microservices: more scalable, complex ops."
+    }
+  ],
+  "fullstack_developer": [
+    {
+      "q": "How do you handle state management in a large React application?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Context API for small apps, Redux/Zustand for complex state, React Query for server state, local state for component-level."
+    },
+    {
+      "q": "Explain how HTTP/HTTPS works.",
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "HTTP = request/response protocol. HTTPS = HTTP + TLS encryption. TLS handshake establishes secure channel."
+    },
+    {
+      "q": "What happens when you type a URL in the browser?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "DNS lookup \u2192 TCP connection \u2192 TLS handshake \u2192 HTTP request \u2192 server processes \u2192 response \u2192 render."
+    },
+    {
+      "q": "How do you prevent XSS and CSRF attacks?",
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "XSS: sanitize input, CSP headers, escape output. CSRF: CSRF tokens, SameSite cookies, Origin header check."
+    },
+    {
+      "q": "What is Server-Side Rendering (SSR) vs Client-Side Rendering (CSR)?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "SSR: HTML from server, good for SEO, slower TTFB. CSR: HTML in browser, fast after load, poor initial SEO."
+    },
+    {
+      "q": "How would you optimize a slow web page?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Lighthouse audit \u2192 lazy loading, image optimization, code splitting, CDN, minification, server-side caching."
+    },
+    {
+      "q": "Explain JWT authentication flow.",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Login \u2192 server signs JWT (header.payload.signature) \u2192 client stores \u2192 sends in Authorization header \u2192 server verifies."
+    },
+    {
+      "q": "Describe the most complex full-stack project you've built.",
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "STAR. Mention architecture decisions, challenges (scaling, auth, data), tech stack choices and trade-offs."
+    },
+    {
+      "q": "What is WebSocket and when would you use it over REST?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Persistent bidirectional connection. Use for real-time: chat, live dashboards, gaming, collaborative editing."
+    },
+    {
+      "q": "How do you handle errors gracefully in a full-stack app?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Frontend: error boundaries, toast notifications. Backend: try/catch, custom error classes, proper HTTP status, logging."
+    }
+  ],
+  "devops_engineer": [
+    {
+      "q": "Explain the CI/CD pipeline you would set up for a microservices app.",
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Code \u2192 GitHub \u2192 CI (build/test) \u2192 Docker image \u2192 registry \u2192 CD (Helm/ArgoCD deploy to K8s) \u2192 monitor."
+    },
+    {
+      "q": "What is the difference between Docker and a VM?",
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "VM = full OS virtualization (heavy). Docker = container shares host kernel (lightweight, fast, portable)."
+    },
+    {
+      "q": "How does Kubernetes handle service discovery?",
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Services get DNS names. kube-dns resolves within cluster. ClusterIP for internal, LoadBalancer for external."
+    },
+    {
+      "q": "Explain Blue-Green deployment strategy.",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Two identical environments (Blue=live, Green=new). Switch traffic to Green after validation. Easy rollback."
+    },
+    {
+      "q": "What is Infrastructure as Code (IaC) and what tools do you use?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Define infra in code (Terraform, Ansible, Pulumi). Version controlled, reproducible, automated provisioning."
+    },
+    {
+      "q": "How do you monitor a production Kubernetes cluster?",
+      "difficulty": "Hard",
+      "type": "Technical",
+      "hint": "Prometheus + Grafana for metrics, ELK for logs, Jaeger for traces, Alertmanager for notifications."
+    },
+    {
+      "q": "What is a Helm chart?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Kubernetes package manager. Bundles manifests as templates with values.yaml. Install/upgrade/rollback apps."
+    },
+    {
+      "q": "Describe an incident where you had to debug a production outage.",
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "STAR: What broke, how you diagnosed (logs/metrics), fix applied, post-mortem done, future prevention."
+    },
+    {
+      "q": "Explain the 12-factor app methodology.",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "Config in env, stateless, port binding, disposability, dev/prod parity, logs as streams, admin processes."
+    },
+    {
+      "q": "What is Terraform state and how do you manage it?",
+      "difficulty": "Medium",
+      "type": "Technical",
+      "hint": "State file tracks real infra. Remote state in S3/Azure Blob + state locking (DynamoDB) for team use."
+    }
+  ],
+  "default": [
+    {
+      "q": "Tell me about yourself and your background.",
+      "options": [
+        "I'd like to discuss my current role and education.",
+        "I'm a skilled developer with a strong background.",
+        "I'm a recent graduate looking for a job.",
+        "I'm a career changer with a strong passion for tech."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "1-2 min elevator pitch: current role/education, key skills, notable projects, career goals. Tailor to role."
+    },
+    {
+      "q": "What is your greatest technical strength?",
+      "options": [
+        "My greatest technical strength is my problem-solving skills.",
+        "I'm proficient in multiple programming languages.",
+        "I have experience with data structures and algorithms.",
+        "I'm skilled in cloud computing and DevOps."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Pick one specific skill, give a concrete example of using it successfully. Link to the role's requirements."
+    },
+    {
+      "q": "Describe a challenging technical problem you solved.",
+      "options": [
+        "I once solved a complex algorithmic problem.",
+        "I fixed a bug in a production environment.",
+        "I optimized a database query for better performance.",
+        "I implemented a machine learning model for a client."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "STAR format. Be specific about the problem, your approach, code/tools used, and measurable outcome."
+    },
+    {
+      "q": "How do you stay current with technology trends?",
+      "options": [
+        "I follow tech blogs and attend conferences.",
+        "I participate in online communities and forums.",
+        "I read books and research papers.",
+        "I take online courses and attend meetups."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Mention specific sources: Hacker News, tech blogs, GitHub trending, conferences, courses, side projects."
+    },
+    {
+      "q": "Explain a technical concept to a non-technical person.",
+      "options": [
+        "I'd explain it using a simple analogy.",
+        "I'd use a technical term and assume they understand it.",
+        "I'd provide a high-level overview without going into details.",
+        "I'd use a complex example to illustrate the concept."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Choose an analogy. Demonstrate empathy, clarity, and ability to adapt communication style."
+    },
+    {
+      "q": "Where do you see yourself in 5 years?",
+      "options": [
+        "I see myself as a team lead or manager.",
+        "I see myself as a senior developer or architect.",
+        "I see myself as a technical writer or consultant.",
+        "I see myself as a founder or entrepreneur."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Align with the company and role. Show ambition but be realistic. Mention skill growth, leadership aspirations."
+    },
+    {
+      "q": "What is version control and why is it important?",
+      "options": [
+        "Version control is a system for tracking code changes.",
+        "Version control is a tool for collaboration and code review.",
+        "Version control is a method for testing and debugging code.",
+        "Version control is a process for managing multiple versions of a project."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Technical",
+      "hint": "System for tracking code changes (Git). Enables collaboration, rollback, branching, code review."
+    },
+    {
+      "q": "How do you approach learning a new technology?",
+      "options": [
+        "I start by reading official documentation.",
+        "I begin by watching tutorials and online courses.",
+        "I start by building a small project or prototype.",
+        "I start by contributing to open-source projects."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Official docs \u2192 tutorials \u2192 small project \u2192 read source code \u2192 contribute. Show structured, self-directed learning."
+    },
+    {
+      "q": "Why do you want to work at our company?",
+      "options": [
+        "I'm interested in the company's mission and values.",
+        "I'm excited about the company's products and services.",
+        "I'm drawn to the company's culture and work environment.",
+        "I'm looking for a new challenge and opportunity to grow."
+      ],
+      "correct_index": 0,
+      "difficulty": "Easy",
+      "type": "Behavioral",
+      "hint": "Research the company: mission, products, culture, tech stack. Show genuine interest, connect to your goals."
+    },
+    {
+      "q": "What is your weakest skill and how are you improving it?",
+      "options": [
+        "My weakest skill is communication, and I'm improving it through public speaking.",
+        "My weakest skill is problem-solving, and I'm improving it through coding challenges.",
+        "My weakest skill is teamwork, and I'm improving it through group projects.",
+        "My weakest skill is time management, and I'm improving it through prioritization techniques."
+      ],
+      "correct_index": 0,
+      "difficulty": "Medium",
+      "type": "Behavioral",
+      "hint": "Be honest but choose a real weakness you're actively improving. Show self-awareness and growth mindset."
+    }
+  ]
+}
