@@ -1,32 +1,17 @@
-# 🤖 AI-Driven Skill-to-Employment Mapping Platform
+# 🤖 CareerCompass AI — Skill-to-Employment Mapping Platform
 
-> **AI Career Mentor** maps your resume skills to real-world job opportunities with weighted matching, step-by-step career roadmaps, job description (JD) comparisons, interview prep, LinkedIn profile optimization, and a context-aware AI Career Copilot.
+> **CareerCompass AI** maps your resume skills to real-world job opportunities with weighted matching, step-by-step career roadmaps, job description (JD) comparisons, interview prep, LinkedIn profile optimization, and a context-aware AI Career Copilot.
 
 ---
-
-<p align="center">
-  <img src="docs/screenshots/banner.png" alt="AI Career Mentor Banner" width="100%">
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Web%20App-6366f1?style=for-the-badge" alt="Platform Badge">
   <img src="https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react" alt="Frontend Badge">
   <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi" alt="Backend Badge">
-  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python" alt="Python Badge">
+  <img src="https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python" alt="Python Badge">
   <img src="https://img.shields.io/badge/AI-Groq%20LLM-FF6B35?style=for-the-badge" alt="AI Badge">
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="License Badge">
 </p>
-
-<p align="center">
-  🏆 <b>2nd Prize — HACKFEST (MOBIUS 2K26)</b> · Thiagarajar College of Engineering
-</p>
-
----
-
-## ⚡ Quick Links
-* **Live Web Application:** [https://prasannaganesann.github.io/AI-Career-Mentor/](https://prasannaganesann.github.io/AI-Career-Mentor/)
-* **Production API Server:** [https://ai-career-mentor-api-2olt.onrender.com](https://ai-career-mentor-api-2olt.onrender.com)
-* **Backend Health Check:** [https://ai-career-mentor-api-2olt.onrender.com/health](https://ai-career-mentor-api-2olt.onrender.com/health)
 
 ---
 
@@ -48,14 +33,6 @@
 
 ---
 
-## 📸 Interface Showcase
-
-<p align="center">
-  <img src="docs/screenshots/dashboard_mockup.png" alt="Platform Dashboard Mockup" width="100%">
-</p>
-
----
-
 ## 📐 System Architecture
 
 The following flowchart outlines the platform's multi-layered architecture:
@@ -69,7 +46,7 @@ flowchart TD
 
     %% Nodes
     A[Browser client: React 18 + Vite]:::client
-    B[Production API Server: FastAPI on Render]:::server
+    B[Production API Server: FastAPI]:::server
     C[PDF Parser: pdfplumber + pypdf]:::server
     D[Skill Extractor: Regex Keyword Matcher]:::server
     E[Weighted Job Matcher]:::server
@@ -93,7 +70,7 @@ flowchart TD
 ## 🛠️ Tech Stack
 
 * **Frontend:** React 18, Vite, HSL-themed CSS (Glassmorphism), PDF.js (`pdfjs-dist`)
-* **Backend:** FastAPI, Uvicorn, Python 3.11, `pypdf`, `pdfplumber`
+* **Backend:** FastAPI, Uvicorn, Python 3.13, `pypdf`, `pdfplumber`
 * **Infrastructure:** GitHub Pages (Static hosting), Render Free Tier (API hosting)
 * **AI & NLP:** Groq AI Cloud (`llama-3.1-8b-instant`), Word-Boundary regex matcher
 
@@ -150,7 +127,7 @@ flowchart TD
    ```bash
    npm run dev
    ```
-   *Open [http://localhost:5173](http://localhost:5173) in your browser.*
+   *Open [http://localhost:5173/careercompass-ai/](http://localhost:5173/careercompass-ai/) in your browser.*
 
 ---
 
@@ -163,7 +140,6 @@ flowchart TD
 * Start Command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 * Environment Variables:
   * `GROQ_API_KEY`: *Your Groq API key*
-  * `FRONTEND_URL`: `https://prasannaganesann.github.io`
 
 ### 2. Deployed Frontend (GitHub Pages)
 The repository contains a pre-configured GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and deploys the frontend React application automatically on pushes to the `main` branch. 
@@ -217,19 +193,5 @@ Context-aware LLM chatbot endpoint.
 
 ---
 
-## 🗺️ Development Roadmap
-- [ ] Implement database integration (PostgreSQL) for user accounts and analytics.
-- [ ] Add real-time PDF scanning support for scanned image resumes (OCR integration).
-- [ ] Incorporate interactive coding test workspaces in the Interview tab.
-- [ ] Implement backend rate-limiting middleware to prevent API spam.
-
----
-
 ## 📝 License
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 👨‍💻 Authors & Acknowledgement
-* **TCE HACKFEST Team Members:** Thiagarajar College of Engineering hackathon submission.
-* Developed for **MOBIUS 2K26**, winning **2nd Place**!
