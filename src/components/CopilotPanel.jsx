@@ -221,30 +221,70 @@ export default function CopilotPanel({ resumeContext }) {
 
     try {
       const historyForAPI = newHistory.slice(1).map(m => ({ role: m.role, content: m.content }));
-      const res = await fetch(`${API_BASE}/ai-chat`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          message: msg,
-          conversation_history: historyForAPI.slice(0, -1),
-          context: resumeContext ? {
-            extracted_skills:      resumeContext.extracted_skills,
-            career_readiness_score:resumeContext.career_readiness_score,
-            best_fit_job:          resumeContext.best_fit_job,
-            best_fit_job_score:    resumeContext.best_fit_job_score,
-            top_3_matches:         resumeContext.top_3_matches?.slice(0, 3).map(j => ({
-              title: j.title, match_percentage: j.match_percentage, missing_critical: j.missing_critical,
-            })),
-          } : null,
-        }),
-      });
-      if (!res.ok) throw new Error('API error');
-      const data = await res.json();
+      let responseText = '';
+
+      try {
+        const res = await fetch(`${API_BASE}/ai-chat`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: msg,
+            conversation_history: historyForAPI.slice(0, -1),
+            context: resumeContext ? {
+              extracted_skills:      resumeContext.extracted_skills,
+              career_readiness_score:resumeContext.career_readiness_score,
+              best_fit_job:          resumeContext.best_fit_job,
+              best_fit_job_score:    resumeContext.best_fit_job_score,
+              top_3_matches:         resumeContext.top_3_matches?.slice(0, 3).map(j => ({
+                title: j.title, match_percentage: j.match_percentage, missing_critical: j.missing_critical,
+              })),
+            } : null,
+          }),
+        });
+        if (!res.ok) throw new Error('API error');
+        const data = await res.json();
+        responseText = data.response;
+      } catch (apiErr) {
+        // Direct fallback to Groq Cloud client-side if API key is present
+        const apiKey = import.meta.env.VITE_GROQ_API_KEY;
+        if (apiKey && apiKey.length > 10 && apiKey !== 'your_groq_api_key_here') {
+          const sysPrompt = `You are a helpful and context-aware AI Career Copilot.
+Current User Context:
+- Resume uploaded: ${resumeContext ? 'Yes' : 'No'}
+${resumeContext ? `- Best Fit Job: ${resumeContext.best_fit_job} (Readiness: ${resumeContext.best_fit_job_score}%)
+- Extracted Skills: ${resumeContext.extracted_skills?.join(', ')}
+- Top 3 matches: ${resumeContext.top_3_matches?.slice(0, 3).map(j => `${j.title} (${j.match_percentage}%)`).join(', ')}` : ''}
+
+Respond concisely and professionally to help the user with their career goals.`;
+
+          const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Authorization': `Bearer ${apiKey}`,
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              model: 'llama-3.1-8b-instant',
+              messages: [
+                { role: 'system', content: sysPrompt },
+                ...historyForAPI
+              ],
+              temperature: 0.7,
+              max_tokens: 1024,
+            }),
+          });
+          if (!groqRes.ok) throw new Error('Groq direct API error');
+          const groqData = await groqRes.json();
+          responseText = groqData.choices?.[0]?.message?.content || 'No response from Groq.';
+        } else {
+          throw apiErr;
+        }
+      }
 
       // Build structured response
       const aiMsg = {
         role: 'assistant',
-        content: data.response,
+        content: responseText,
         time: Date.now(),
         // Attach navigation actions if intent detected
         actions:   detected ? insight?.actions?.slice(0, 3) : null,
